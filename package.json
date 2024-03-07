@@ -1,5 +1,5 @@
 {
-  "name": "web-ifc-viewer-root",
+  "name": "@bldrs-ai/web-ifc-viewer-root",
   "description": "IFC viewer",
   "version": "1.0.218",
   "private": true,
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifcjs/web-ifc-viewer.git"
+    "url": "git+https://github.com/bldrs-ai/web-ifc-viewer.git"
   },
   "scripts": {
     "init-repo": "yarn && npm run build",

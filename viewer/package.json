@@ -1,5 +1,5 @@
 {
-  "name": "web-ifc-viewer",
+  "name": "@bldrs-ai/web-ifc-viewer",
   "version": "1.0.218",
   "description": "IFC viewer",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifcjs/web-ifc-viewer.git"
+    "url": "git+https://github.com/bldrs-ai/web-ifc-viewer.git"
   },
   "keywords": [
     "ifc",
@@ -24,9 +24,9 @@
   "author": "agviegas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ifcjs/web-ifc-viewer/issues"
+    "url": "https://github.com/bldrs-ai/web-ifc-viewer/issues"
   },
-  "homepage": "https://github.com/ifcjs/web-ifc-viewer",
+  "homepage": "https://github.com/bldrs-ai/web-ifc-viewer",
   "dependencies": {
     "camera-controls": "^1.33.1",
     "dat.gui": "^0.7.7",

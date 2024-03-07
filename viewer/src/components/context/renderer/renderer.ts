@@ -20,7 +20,7 @@ export class IfcRenderer extends IfcComponent {
     super(context);
     this.context = context;
     this.container = context.options.container;
-    this.renderer = new WebGLRenderer({ alpha: true, antialias: true });
+    this.renderer = new WebGLRenderer({ alpha: true, antialias: true, logarithmicDepthBuffer: true });
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
     this.setupRenderers();
@@ -69,7 +69,7 @@ export class IfcRenderer extends IfcComponent {
 
     // Using a new renderer to make screenshots without updating what the user sees in the canvas
     if (!this.tempRenderer) {
-      this.tempRenderer = new WebGLRenderer({ canvas: tempCanvas, antialias: true });
+      this.tempRenderer = new WebGLRenderer({ canvas: tempCanvas, antialias: true, logarithmicDepthBuffer: true });
       this.tempRenderer.localClippingEnabled = true;
     }
 
